@@ -12,6 +12,12 @@ export const ContainerHeader = styled.header`
     color: white;
     
     a {
+        text-decoration: none;
+        color: white;
         cursor: pointer;
+
+        :hover{
+            font-size: large;
+        }
     }
 `

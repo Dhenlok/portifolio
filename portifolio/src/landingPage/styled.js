@@ -10,6 +10,10 @@ export const WhoAmI = styled.div`
     margin-bottom: 10px;
     text-align: center;
 
+    p {
+        font-size: 0.9rem;
+    }
+
     h1 {
         font-size: 50px;
     }
@@ -33,12 +37,14 @@ export const WhoAmI = styled.div`
 `
 
 export const Knowledge = styled.div`
-    background-color: #1b818c;
+    background: rgb(2,65,89);
+    background: linear-gradient(45deg, rgba(2,65,89,1) 0%, rgba(130,208,217,1) 100%);
     color: white;
     text-align: center;
     display: grid;
     grid-template-rows: 1fr 3fr ;
     text-align: center;
+    margin-bottom: 10px;
 `
 
 export const Fullstack = styled.div`
@@ -52,11 +58,39 @@ export const Fullstack = styled.div`
 export const Education = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
     gap: 10px;
 `
 
-export const Course = styled.div`
+export const Course1 = styled.div`
     display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
-    border: 1px solid black;
+    font-size: small;
+    background-color: #024159;
+    color: white;
+    font-weight: 500;
+    `
+
+export const Course2 = styled.div`
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: small;
+        background-color: #025e73;
+        color: white;
+        font-weight: 500;
+        `
+
+export const Course3 = styled.div`
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: small;
+        background-color: #82d0d9;
+        color: white;
+        font-weight: 500;
 `

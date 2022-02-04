@@ -5,4 +5,5 @@ export const ContainerSocial = styled.p`
     flex-direction: column;
     position: absolute;
     margin: 1% 90%;
+    
 `
